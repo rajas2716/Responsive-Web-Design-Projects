@@ -1,0 +1,80 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Project-2-CSS.css">
+<div id="main">
+<h1 id="title">SURVEY FORM</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form";>
+   <div id="pad">
+   <label for="name" id="name-label">
+   <b>NAME</></label>
+    <input id="name" 
+           class="field"
+           type="text"
+           placeholder="Type here"
+           required>
+    </div>
+    <label for="email" id="email-label">
+    <b>EMAIL</b></label>
+    <div id="pad">
+    <input type="email"
+           id="email"
+           class="field"
+           placeholder="Type here"
+           required
+           >
+    </div>
+    <label for="Age" id="number-label">
+      <b>AGE</b></label>
+    <div id="pad">
+    <input type="number"
+           min="13"
+           max="100"
+           id="number"
+           class="field"
+           placeholder="Type here"
+           >
+    </div>
+    <p>PROFFESSION</p>
+    <select id="dropdown">
+      <option selected disabled>Select here</option>
+      <option>Student</option>
+      <option>Officer</option>
+      <option>Postman</option>
+      <option>Coolie</option>
+    </select>
+    <br>
+    <fieldset>
+      <legend>Rate our Survey level</legend>
+       <label style="color:red;" for="1"><input type="radio" name="level" value="1">
+     1</label>
+      <label for="2" style="color:orange;"><input type="radio" name="level"
+             value="2">
+      2</label>
+      <label for="3" style="color:blue;"><input type="radio" name="level"
+             value="3">
+      3</label>
+      <label for="4" style="color:yellow;"><input type="radio" name="level"
+             value="4">
+      4</label>
+      <label for="5" style="color:green;"><input type="radio" name="level" value="5">
+      5</label>
+      </fieldset>
+    <br>
+    <input type="checkbox" value="Boring">
+    <strong>BORING</strong>
+    <input type="checkbox" value="interesting" id="ex">
+    <strong>INTERESTING</strong>
+     <p>ADDITIONAL COMMENTS</p>
+      <textarea id="area"
+                placeholder="Enter text here..">
+        
+     </textarea>
+     <br>
+     <button type="submit" id="submit"
+             >SUBMIT
+     </button>
+    
+  </form>
+  
+    

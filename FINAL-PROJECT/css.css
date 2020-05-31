@@ -1,0 +1,171 @@
+li{
+  font-family:Bellota Text;
+  list-style:none;
+  display:inline-block;
+  padding:5px 90px;
+  transition:0.3s; 
+}
+  
+.link:hover
+{
+ background-color:rgba(0,0,70,30%);
+color:#F37E7E;
+}
+html{
+  scroll-behavior:smooth;
+}
+
+
+button{
+  font-family:Bellota Text;
+  font-weight:1000;
+  color:#edf0f1;
+  font-size:20px;
+  border-radius:3px;
+  border:none;
+  cursor:pointer;
+  transition:0.4s;
+  padding: 9px 25px;
+  background:#24252A;
+  
+}
+button:hover{
+  background-color:rgba(0,0,70,30%);
+  color:#F37E7E;
+}
+a{
+  
+  text-decoration:none;
+  color:#edf0f1;
+
+  
+ }
+.link{
+  padding:7px;
+  transition:0.2s;
+}
+
+nav-links{
+  padding:10px;
+}
+
+nav{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  position:fixed; 
+  top:0;
+  left:0;
+  right:0;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,30%);
+  background:#24252A;
+  z-index:6;
+ 
+}
+.Logo{
+  cursor:pointer;
+  position:absolute;
+  left:0;
+  border-radius:2.5px;
+}
+
+#welcome-section{
+  color:4258CA;
+  font-family:"spartan";
+  display:flex;
+  justify-content:center;
+  margin-left:-10px;
+  margin-right:-10px;
+  font-size:50px;
+  transition:0.3s;
+  cursor:pointer;
+  margin-top:60px;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+ height: 100vh;
+  
+}
+#welcome-section:hover{
+  color:#F37E7E;
+}
+#projects{
+
+  background:#323A65 ;
+  position:absolute;
+  right:0;
+  left:0;
+  height:500px;
+  z-index:3;
+  
+}
+h2{
+  margin-top:-34px;
+  display:flex;
+  justify-content:center;
+  font-family:Bellota Text;
+  color:rgba(255,255,255,0.2);
+  font-size:50px;
+  cursor:pointer;
+  transition:0.3s;
+  text-decoration:underline;
+  
+}
+h2:hover{
+  color:rgba(255,255,255,1) ;
+  
+}
+
+ .project-image {
+  height: 350px;
+  width: 350px;
+  
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+   display:block;
+  
+}
+.link-image{
+  background:#F37E7E;
+}
+ .mkdf{
+     display:flex;
+   justify-content:space-evenly;
+   }
+span{
+  display:flex;
+  justify-content:center;
+  font-family:Bellota Text;
+  font-size:30px;
+  color:#525151;
+}
+#footer{
+  background-color:#F37E7E;
+  font-size:30px;
+  margin-top:435px;
+  left:0;
+  position:absolute;
+  right:0;
+  
+  
+  
+}
+#foot{
+  margin-top:70px;
+  display:flex;
+  justify-content:center;
+ text-decoration:underline overline solid black;
+  font-family:Montserrat;
+}
+h3{
+  margin-top:100px;
+}
+#profile-link{
+  display:flex;
+  justify-content:center;
+}
+
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+

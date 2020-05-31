@@ -1,0 +1,80 @@
+h1{
+  text-align:center;
+  font-family:cursive;
+  color:grey;
+}
+*{
+  margin:0;
+}
+#main{ background:url(https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg);
+  background-size:cover;
+  background-repeaat:no-repeat;
+}
+p{
+  color:hsl(60,30%,70%);
+    text-transform:uppercase;
+  font-family:'Big Shoulders Text';
+    text-align:center;
+  font-size:30px;
+}
+form{
+background:rgba(10,10,10,40%);
+  max-width:500px;
+ margin:0 auto;
+  padding:10px;}
+ 
+#pad{
+    padding:20px;
+  } 
+
+b{
+  margin-lft:100px;
+  font-size:19px;
+  color:gray;
+  font-family:monospace;
+}
+.field{
+  display:block;
+  margin:0 auto;
+  border-radius:5px;
+  min-width:400px;
+  min-height:30px;
+  text-align:center;
+}
+#dropdown{
+display:block;
+margin:auto;
+height:30px;
+width:450px;
+color:blue;}
+legend{
+  color:white;
+  font-family:helvetica;
+  font-size:30px;
+  text-transform:uppercase;
+}
+label{
+  color:white;
+  display:flex;
+  align-items:center;
+  font-family:helvetica;
+  margin:10px;
+  padding:4px;
+}
+#ex{
+  margin-left:250px;
+  color:white;
+}
+strong{
+color:white;}
+#area{
+  display:block;
+  height:100px;
+  width:500px;
+  border-radius:5px;
+}
+#submit{
+  width:70px;
+  height:25px;
+  
+}
